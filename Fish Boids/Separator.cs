@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Seperater : Agent
+public class Separator : Agent
 {
     // Fields for Seeker
     [SerializeField, Range(0, 1)] float seperateScalar;
