@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+        <!-- stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="compendium">
+        <header>
+            <h1>Hyrule Compendium</h1>
+        </header>
+
+        <main>
+            <div id="grid-display">
+                <div id="dropdown">
+                    <p>sort by</p>
+                    <select id="sort">
+                        <option value="id">id</option>
+                        <option value="name">name</option>
+                    </select>
+                </div>
+
+                <div id="buttons">
+                    <img title="creatures" data-category="creatures" src="images/icons/horse.png" alt="creatures button">
+                    <img title="equipment" data-category="equipment" src="images/icons/sword.png" alt="equipment button">
+                    <img title="materials" data-category="materials" src="images/icons/apple.png" alt="materials button">
+                    <img title="monsters" data-category="monsters" src="images/icons/skull.png" alt="monsters button">
+                    <img title="treasure" data-category="treasure" src="images/icons/treasure.png" alt="treasure button">
+                </div>
+
+                <div id="content">
+                    <p>press a category button to see a list of items!</p>
+                </div>
+            </div>
+
+            <div id="big-display">
+                <h2>Name</h2>
+                <img src="images/no-image-found.png" alt="no-image-found">
+                <p>click on an image to read about it!</p>
+            </div>
+        </main>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
